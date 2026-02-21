@@ -1,0 +1,252 @@
+*{
+    color: rgb(234, 232, 232);
+    font-family: "SN Pro", sans-serif;
+}
+button{
+    font-weight: bold;
+}
+.main_body{
+    background-color: black;
+    border-radius: 9px;
+}
+.nav{
+    background-color: rgb(0, 0, 0);
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+.main_body .nav .home_search .fa {
+    color: #b3b3b3;
+}
+
+.Hou_Sea{
+    /* width: 20%; */
+}
+
+.home_search{
+    height: 28px;
+    background-color: #1f1f1f;
+    font-size: 23px;
+    border-radius: 37px;
+    margin-right: 5px;
+    padding:9px;
+    margin-bottom:2px;
+    display: inline-block;    
+}
+.home_search:hover{
+    background-color: rgb(61, 61, 62);
+}
+.main_body .nav .home_search .form {
+    padding: 2px;
+    height: 10px;
+    text-align: center;
+
+}
+.main_body .nav .home_search .fa:hover{
+    color: aliceblue;
+
+}
+.main_body .nav .home_search:hover{
+    transform: scale(1.03);
+    color: aliceblue;
+}
+
+
+.main_body .nav  input{
+    border:none;
+    background:none;
+    color: #b3b3b3;
+    font-weight: 500px;
+    align-self:start;
+    position:relative;
+    bottom: 6px;
+}
+.nav_text button:focus {
+    outline: none;
+}
+.fa-spotify{
+    font-size: 32px;
+    /* width: 20%; */
+    /* margin-right: 8px; */
+    margin: 0px 15px; 
+    margin-top: 5px;
+    color:#6f6e6e;
+}
+
+.nav_text_out{
+    /* width: 55%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.nav_text button{
+    border:none;
+    background:none;
+    color: white;
+}
+.plus{
+    background-color: #1f1f1f;
+    font-size: 15px;
+    border-radius: 37px;
+    padding:9px;
+    margin-bottom:2px;
+    display: inline-block; 
+}
+.body_left{
+    width:23%;
+    height:800px;
+    background-color: #131212;
+    margin-left: 10px;
+    border-radius: 8px;
+
+}
+.body_left_up{
+    
+    height:75px;
+    
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    margin-left: 8px;
+    font-weight:500px;
+}
+.body_center{
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 6px;
+    margin: 8px;
+    border-radius: 19px;
+    /* justify-content: space-around; */
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.body_left_down{
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 6px;
+    margin: 8px;
+    border-radius: 19px;
+    /* justify-content: space-around; */
+    font-size: 18px;
+}
+.body_center_h4 h4{
+    margin-bottom: 4px;
+    padding-bottom: 1px ;
+}
+.body_left_down_h4 h4{
+    margin-bottom: 4px;
+    padding-bottom: 1px ;
+}
+
+.btn {
+    appearance: none;
+    height: 36px;
+    width: 129px;
+    color: #000000;
+    background-color: azure;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+.body_right_up{
+    height: 68px;
+    position: sticky;
+    top: 0px;
+    background-color: #131212;
+    display: flex;
+    transition: background-color 0.3s ease;
+}
+
+
+.bg{
+    height: 22px;
+    background-color: #1f1f1f;
+    font-size: 17px;
+    border-radius: 34px;
+    margin-top:16px;
+    margin-right: 10px;
+    padding:8px;
+    margin-bottom:2px;
+    display: inline-block;
+    text-align: center;  
+    padding-left: 13px; 
+    padding-right: 13px;
+    font-weight: bold;
+}
+.bg_all{
+    margin-left: 40px;
+}
+.body_right{
+    width:70%;
+    height:800px;
+    background-color: #131212;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.body_without_nav_right{
+    width:4%;
+    height:800px;
+    background-color: #131212;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.body_without_nav{
+    display: flex;
+}
+.body_right{
+    overflow: scroll;
+}
+.body_right_down_row_list{
+    display: flex;
+    overflow: scroll;
+}
+
+
+.body_right_down_row{
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:55px;
+    padding-right:40px;
+}
+.underline_hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img_div{
+    height: 309px;   
+    width:233px;
+    border: 17px solid #131212;
+    border-radius: 8px;
+
+}
+.img_div:hover{
+    border: 17px solid#242424;
+    
+}
+.img_div_1{
+    margin-left:60px;
+    
+}
+img{
+    border-radius: 8px;
+}
+@media(max-width:1000px){
+    .hide{
+        display: none;
+    }
+}
